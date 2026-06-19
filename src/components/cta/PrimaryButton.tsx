@@ -1,4 +1,4 @@
-import { ReactNode, useState, ElementType } from 'react';
+import { ReactNode } from 'react';
 import { cn } from '../../lib/cn';
 
 interface PrimaryButtonProps {
