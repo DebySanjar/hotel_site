@@ -21,16 +21,16 @@ const menuItems = [
 const StyledWrapper = styled.div`
   .nav-container {
     display: flex;
-    background-color: rgba(0, 73, 144, 0.92);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     align-items: center;
     justify-content: space-around;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px,
-      rgba(0, 73, 144, 0.4) 0px 8px 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 20px,
+      inset 0 1px 0 rgba(255, 255, 255, 0.2);
     padding: 0 8px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
   }
 
   .nav-btn {
@@ -42,7 +42,7 @@ const StyledWrapper = styled.div`
     align-items: center;
     justify-content: center;
     gap: 3px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(30, 50, 90, 0.7);
     transition: all ease-in-out 0.25s;
     cursor: pointer;
     padding: 10px 14px;
@@ -52,8 +52,8 @@ const StyledWrapper = styled.div`
 
   .nav-btn:hover,
   .nav-btn.active {
-    color: #ffffff;
-    background: rgba(255, 255, 255, 0.12);
+    color: rgba(30, 50, 90, 1);
+    background: rgba(255, 255, 255, 0.25);
     transform: translateY(-2px);
   }
 
