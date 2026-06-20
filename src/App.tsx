@@ -5,6 +5,7 @@ import ServicesSection from './components/ServicesSection';
 import ProjectsSection from './components/ProjectsSection';
 import CtaSection from './components/cta/CtaSection';
 import Footer from './components/Footer';
+import BottomNav from './components/bottomNav';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ProjectsSection />
       <CtaSection />
       <Footer />
+      <BottomNav />
     </main>
   );
 }
