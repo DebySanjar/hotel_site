@@ -3,6 +3,7 @@ import MarqueeSection from './components/MarqueeSection';
 import AboutSection from './components/AboutSection';
 import ServicesSection from './components/ServicesSection';
 import ProjectsSection from './components/ProjectsSection';
+import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import BottomNav from './components/bottomNav';
 
@@ -14,6 +15,7 @@ function App() {
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />
+      <ContactSection />
       <Footer />
       <BottomNav />
     </main>
